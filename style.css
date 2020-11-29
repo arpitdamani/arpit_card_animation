@@ -15,7 +15,7 @@ body{
 		padding: 1em;
 		background: rgb(7,218,165);
 		border-radius: 10px;
-		width: 350px;
+		max-width: 350px;
 		clip-path: circle(10% at 90% 20%);
 		transition: all .6s ease-in-out;
 		cursor: pointer;
@@ -56,9 +56,9 @@ body{
 			
 		}
 
-		span:hover {
-			display: block;
+		.inner:hover span{
 			color: rgba(255,255,255,0);
+			
 		}	
 			
 
