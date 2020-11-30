@@ -73,4 +73,10 @@ body{
 			span{
 				margin-right: 48.8%;
 			}
+
+			.inner:active {
+			clip-path: circle(90%);
+			background: #00b6ff;
+			
+			} 
 		}		
